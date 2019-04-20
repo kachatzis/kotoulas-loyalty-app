@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="start" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="48dp">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@+id/mr_picker_close_button" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="24dp" android:layout_height="24dp" android:src="?attr/mediaRouteCloseDrawable" />
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@+id/mr_picker_list" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <font android:font="@font/trebuc" android:fontWeight="400" android:fontStyle="0"/>
+    <font android:font="@font/trebucbi" android:fontWeight="400" android:fontStyle="1"/>
+    <font android:font="@font/trebucbd" android:fontWeight="700" android:fontStyle="0"/>
+</font-family>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_gra" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="24dp" android:paddingTop="56dp" android:paddingRight="24dp" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="102dp" android:layout_marginBottom="10dp" android:src="@drawable/logo" />
+        <android.support.design.widget.TextInputLayout android:theme="@style/userpassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp">
+            <EditText android:textColor="#c5c5c5" android:id="@+id/username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="\ 6970707070" android:hint="E-mail ή Τηλέφωνο" android:inputType="textEmailAddress" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout android:theme="@style/userpassword" android:id="@+id/input_password_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" app:passwordToggleEnabled="true">
+            <EditText android:textColor="#c5c5c5" android:id="@+id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="7993842" android:hint="Κωδικός" android:inputType="textPassword" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.v7.widget.AppCompatButton android:textColor="#0b50a0" android:id="@+id/btn_login" android:background="@drawable/buttun_round" android:padding="12dp" android:layout_width="fill_parent" android:layout_height="60dp" android:layout_marginTop="24dp" android:layout_marginBottom="24dp" android:text="ΕΙΣΟΔΟΣ" />
+    </LinearLayout>
+</LinearLayout>

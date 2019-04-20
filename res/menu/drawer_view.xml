@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_home_outline_white_24dp" android:id="@+id/nav_home" android:title="@string/nav_home" />
+        <item android:icon="@drawable/ic_account_white_24dp" android:id="@+id/nav_account" android:visible="false" android:title="@string/nav_account" />
+        <item android:icon="@drawable/ic_email_outline_white_24dp" android:id="@+id/nav_messages" android:title="@string/nav_messages" />
+        <item android:icon="@drawable/ic_newspaper_white_24dp" android:id="@+id/nav_news" android:title="@string/nav_news" />
+        <item android:icon="@drawable/ic_lifebuoy_white_24dp" android:id="@+id/nav_help" android:title="@string/nav_help" />
+        <item android:icon="@drawable/ic_message_outline_white_24dp" android:id="@+id/nav_opinion" android:title="@string/nav_opinion" />
+        <item android:icon="@drawable/ic_logout_variant_white_24dp" android:id="@+id/nav_logout" android:title="@string/nav_logout" />
+    </group>
+</menu>

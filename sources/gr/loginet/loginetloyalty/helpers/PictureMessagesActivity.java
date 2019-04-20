@@ -1,0 +1,6 @@
+package gr.loginet.loginetloyalty.helpers;
+
+import android.support.v7.app.AppCompatActivity;
+
+public class PictureMessagesActivity extends AppCompatActivity {
+}

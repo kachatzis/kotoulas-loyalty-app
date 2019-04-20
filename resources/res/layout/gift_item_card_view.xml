@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:tag="cards main container" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView android:id="@+id/card_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" app:cardBackgroundColor="@color/zxing_transparent" app:cardCornerRadius="0dp" app:cardElevation="1dp" app:cardUseCompatPadding="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:background="@color/white" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_margin="5dp">
+                <ImageView android:id="@+id/imageView" android:tag="image_tag" android:layout_width="150dp" android:layout_height="150dp" android:layout_margin="5dp" android:src="@drawable/noimage"/>
+            </LinearLayout>
+            <LinearLayout android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="5dp">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_gravity="center_horizontal" android:id="@+id/textViewPortal_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="N/A"/>
+                    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center_horizontal" android:id="@+id/textViewPortal_small_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="N/A"/>
+                    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center_horizontal" android:id="@+id/textViewPortal_big_description" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="N/A"/>
+                    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="#a7cd46" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <TextView android:textSize="40dp" android:textColor="#ffffff" android:id="@+id/textViewCredits_cost" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="400"/>
+                            <TextView android:textSize="20dp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="πόντοι"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="start" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp" android:paddingStart="24dp">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@+id/mr_picker_close_button" android:background="?attr/selectableItemBackgroundBorderless" android:layout_width="24dp" android:layout_height="24dp" android:src="?attr/mediaRouteCloseDrawable"/>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView android:id="@+id/mr_picker_list" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>
